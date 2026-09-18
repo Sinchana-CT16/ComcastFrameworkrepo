@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suiteone]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Practice.CreateOrganizationTest">
+        <methods>
+          <include name="congigAC"/>
+          <include name="congigAS"/>
+          <include name="congigBC"/>
+          <include name="createOrganizationWithMobileTest"/>
+          <include name="congigBM"/>
+          <include name="congigAM"/>
+          <include name="createOrganizationTest"/>
+          <include name="confogBc"/>
+        </methods>
+      </class> <!-- Practice.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suiteone] -->
