@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="CreateOrganization.CreateOrganizationTest">
+        <methods>
+          <include name="congigAC"/>
+          <include name="congigAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="createOrgWithIndustryAndType"/>
+          <include name="createOrganizationWithMobileTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createOrganizationTest"/>
+        </methods>
+      </class> <!-- CreateOrganization.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="CreateContact.CreateContactTest">
+        <methods>
+          <include name="congigAC"/>
+          <include name="congigAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="createContactWithSupportDate"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createContact"/>
+          <include name="createContactWithOrg"/>
+        </methods>
+      </class> <!-- CreateContact.CreateContactTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
